@@ -15,4 +15,4 @@ Fork Deploy is highly recommended
    - [@Tepthon](https://t.me/Tepthon)
    - [@Mohammad
 (https://t.me/PPF22)
-شكرًا لك @zzzzl1l .
+- شكرًا لك @zzzzl1l .
