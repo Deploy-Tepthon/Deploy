@@ -90,4 +90,4 @@ _set_bot () {
     python3 -m Tepthon
 }
 
-_se
+_set_bot
