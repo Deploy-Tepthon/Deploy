@@ -5,6 +5,7 @@ wheel
 aiofiles
 aiohttp
 beautifulsoup4
+base64
 cloudscraper
 colour
 covid
