@@ -4,7 +4,7 @@ setuptools
 wheel
 aiofiles
 aiohttp
-beautifulsoup4
+beautifulsoup4==4.12.2
 base64
 cloudscraper
 colour
