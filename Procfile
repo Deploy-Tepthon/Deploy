@@ -1,1 +1,1 @@
-worker: bash beta
+web: bash beta
