@@ -4,7 +4,6 @@ setuptools
 wheel
 aiofiles
 aiohttp
-base64
 beautifulsoup4
 cloudscraper
 colour
