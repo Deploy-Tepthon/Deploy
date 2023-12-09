@@ -4,8 +4,8 @@ setuptools
 wheel
 aiofiles
 aiohttp
-beautifulsoup4
 base64
+beautifulsoup4
 cloudscraper
 colour
 covid
