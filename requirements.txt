@@ -1,4 +1,4 @@
-telethon==1.25.2
+telethon
 telethon-session-sqlalchemy
 setuptools
 wheel
@@ -26,7 +26,6 @@ html-telegraph-poster
 httpx[http2]
 humanize
 IMDbPY
-ipaddress
 jikanpy
 justwatch
 lottie
@@ -39,7 +38,7 @@ Pillow
 prettytable
 psutil
 psycopg2
-py-tgcalls==0.9.2
+py-tgcalls
 pyfiglet
 PyGithub
 pygments
@@ -51,8 +50,6 @@ python-barcode
 python-dotenv
 pyTelegramBotAPI==3.7.7
 pytz
-pyrogram
-pyquery
 qrcode
 randomstuff.py
 regex
@@ -77,7 +74,8 @@ wikipedia
 wget
 youtube-search-python==1.4.9
 youtube-search
-yt-dlp==2023.09.24
+yt-dlp==2023.11.16
 youtube_dl
+
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/sandy1709/py-googletrans
