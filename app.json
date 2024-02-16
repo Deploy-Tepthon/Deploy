@@ -57,11 +57,5 @@
   },{
     "url": "heroku/python"
   }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "basic"
-    }
-  },
-  "stack": "heroku-22"
-}
+"stack": "heroku-22"
+
