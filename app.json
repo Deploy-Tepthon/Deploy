@@ -1,35 +1,35 @@
 {
-  "name": "سـورس تيبثــون - 𝗧𝗘𝗣𝗧𝗛𝗢𝗡",
-  "description": "سـورس تيبثـون العـربي معرب بالكامـل مطور السـورس Mohammad - @Tepthon",
-  "logo": "https://telegra.ph/file/29bcb10b5acb88fb9a489.jpg",
+  "name": "سـورس تيبثــون",
+  "description": "ســورس تيبثـون سورس مُعرب بالكامـل 🇵🇸",
+  "logo": "",
   "keywords": ["plugin","modular","productivity"],
   "repository": "https://github.com/Deploy-Tepthon/Deploy",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "APP_ID": {
-      "description": "كـود ايبي ايـدي〔 App id 〕لا تغيرهـا",
-      "value": "27455984"
+      "description": "كـود أيبـي أيـدي - [ APP ID ] لا تغيره",
+      "value": "19645327"
     },
     "API_HASH": {
-      "description": "كـود ايبي هـاش〔 Api hash 〕..لا تغيرهـا",
-      "value": "62d5f68ce2e9189636967120220f5755"
+      "description": "كود أيبي هـاش - [ API HASH ] لا تغيره",
+      "value": "92de937beb2f87db08df95bcca0ac2d6"
     },
     "STRING_SESSION": {
-      "description": "كـــود تيـــرمكـــس أو كــــود بايروجـــرام قم باستخراجه من بوت الاستخراج ( @TepthonSessionBot )",
+      "description": "كـود تيرمكـس - @FJDBOT",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
+      "description": "توكــن البــوت - @BotFather",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه وتنسـخ الكـود لهنـا",
+      "description": "كـود هيروكو أيبي كـي - تروح على إعدادات حسابك وتنزل تحت تظهر الأيبـي كي",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اســـم التطبيـــق - نفـس أول مربـع بالقائمـة نسـخ لصـق حـروف إنجليزيـة صغيـرة",
+      "description": "اسـم التطبيـق الذي قمـت بكتابته أول شـيء",
       "value": "",
       "required": false
     }
@@ -53,9 +53,15 @@
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
-    "url": "https://github.com/rogerpq/heroku-buildpack-ffmpeg-latest"
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   },{
     "url": "heroku/python"
   }],
-  "stack": "heroku-22"
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
     }
+  },
+  "stack": "heroku-22"
+}
