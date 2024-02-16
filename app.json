@@ -1,7 +1,7 @@
 {
   "name": "سـورس تيبثــون",
   "description": "ســورس تيبثـون سورس مُعرب بالكامـل 🇵🇸",
-  "logo": "",
+  "logo": ".",
   "keywords": ["plugin","modular","productivity"],
   "repository": "https://github.com/Deploy-Tepthon/Deploy",
   "website": "#TODO",
@@ -57,5 +57,5 @@
   },{
     "url": "heroku/python"
   }],
-"stack": "heroku-22"
-
+  "stack": "heroku-22"
+}
