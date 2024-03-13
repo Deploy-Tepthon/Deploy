@@ -40,10 +40,10 @@
       "version": "15"
     }
   }],
-  "buildpacks": [{
+"buildpacks": [{
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
   },{
-    "url":"https://github.com/TonyGrass/heroku-buildpack-chromedriver-fixed-version"
+    "url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
   },{
     "url": "https://github.com/riganf/heroku-buildpack-p7zip"
   },{
@@ -53,9 +53,12 @@
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
     "url": "heroku/python"
   }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
   "stack": "heroku-22"
-}
