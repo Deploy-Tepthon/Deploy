@@ -68,9 +68,9 @@ vcsi
 wand
 wikipedia
 wget
+youtube-search-python==1.4.9
 youtube-search
-yt-dlp==2023.11.16
 
 git+https://github.com/sandy1709/Telethon@beta
 git+https://github.com/sandy1709/py-googletrans
-git+https://github.com/alexmercerind/youtube-search-python
+git+https://github.com/yt-dlp/yt-dlp@master
